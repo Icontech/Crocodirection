@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Crocodirection</string>
+    <string name="choose_dest">Choose destination</string>
+    <string name="get_current_pos">Get current position</string>
+    <string name="croco_text">Croco</string>
+    <string name="direction_text">Direction</string>
+</resources>

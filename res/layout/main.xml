@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#FFFFFF"
+        >
+
+    <ImageView
+               android:layout_marginTop="20px"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@drawable/croco_logo"
+               android:layout_gravity="center"
+            />
+    <TextView
+            android:id="@+id/titleOneTxt"
+            android:layout_marginTop="10px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/croco_text"
+            android:textSize="40px"
+            android:layout_gravity="center"
+            android:textColor="#3D2783"
+            />
+    <TextView
+            android:id="@+id/titleTwoTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direction_text"
+            android:textSize="40px"
+            android:layout_gravity="center"
+            android:textColor="#3D2783"
+            />
+
+    <Button
+        android:id="@+id/destinationBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20px"
+        android:text="@string/choose_dest"
+        android:textColor="#FFFFFF"
+        android:textSize="25px"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#6640A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:onClick="chooseDestination"
+
+            />
+    <Button
+            android:id="@+id/positionBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20px"
+            android:text="@string/get_current_pos"
+            android:textColor="#FFFFFF"
+            android:textSize="25px"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#6640A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:onClick="getCurrentPosition"
+
+            />
+
+</LinearLayout>
+
